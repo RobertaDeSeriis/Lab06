@@ -1,0 +1,29 @@
+3 città 
+tecnico, analisi della durata di un giorno per ogni città
+analisi= costo per ogni giornata
+costo giornata= fatt. cost (=100)+ fatt. var.= val. num umidità città
+
+//OBIETTIVO
+Trovare la sequenza di città da visitare nei primi 15 gg
+per minimizzare il Costo complessivo rispettando i vincoli:
+
+-Primi 15 gg del mese, tutte le città devono essere visitate almeno 1 volta
+-in nessuna città si possono trascorrere più di 6 giornate
+-scelta una città, il tecnico non si può spostare prima di aver trascoro 3 gg consecutivi
+
+//COSA RAPPRESENTA IL LIVELLO
+N° città
+
+//SOLUZIONE PARZIALE
+elenco di città visitate
+
+//RICONOSCERE UNA SOLUZIONE PARZIALE DA UNA COMPLETA
+completa se contiene tutte le città
+
+//SOLUZIONE PARZIALE, VALIDA O MENO
+se rispetta i vincoli 
+
+//SOLUZIONE COMPLETA, VALIDA O MENO
+se supera i 15 gg non è valido
+
+//finire di rispondere alle domande

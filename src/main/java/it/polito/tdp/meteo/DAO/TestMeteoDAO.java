@@ -11,7 +11,8 @@ public class TestMeteoDAO {
 		MeteoDAO dao = new MeteoDAO();
 
 		List<Rilevamento> list = dao.getAllRilevamenti();
-
+		
+		
 		// STAMPA: localita, giorno, mese, anno, umidita (%)
 		for (Rilevamento r : list) {
 			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());

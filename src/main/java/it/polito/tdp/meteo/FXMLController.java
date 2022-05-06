@@ -37,9 +37,10 @@ public class FXMLController {
 
     private Model model; 
     
+    
     @FXML
     void doCalcolaSequenza(ActionEvent event) {
-
+    	txtResult.setText(model.trovaSequenza(boxMese.getValue()).toString());
     }
 
     @FXML
